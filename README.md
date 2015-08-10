@@ -1,7 +1,7 @@
 # react-test-utilities
 Testing utilities for react.
 
- * [renderAndFind()](#renderAndFind(Component))
+ * [renderAndFind()](#user-content-renderandfindcomponent)
  * [stubRouterContext()](#user-content-stubroutercontextcomponent-props-stubs)
 
 
