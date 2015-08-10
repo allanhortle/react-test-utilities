@@ -1,10 +1,10 @@
 # react-test-utilities
 
+Testing utilities for react.
+
 ```
 npm install --save-dev react-test-utilities
 ```
-
-Testing utilities for react.
 
  * [renderAndFind()](#user-content-renderandfindcomponent)
  * [stubRouterContext()](#user-content-stubroutercontextcomponent-props-stubs)
