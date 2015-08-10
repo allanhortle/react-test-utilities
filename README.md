@@ -2,7 +2,7 @@
 Testing utilities for react.
 
  * [renderAndFind()](#renderAndFind(Component))
- * [stubRouterContext()](#stubRouterContext(Component, props, stubs))
+ * [stubRouterContext()](#user-content-stubroutercontextcomponent-props-stubs)
 
 
 ### `renderAndFind(Component)`
