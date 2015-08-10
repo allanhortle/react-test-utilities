@@ -1,9 +1,10 @@
 var React = require('react');
-
+var objectAssign = require('object-assign');
+ 
 var stubRouterContext = function(Component, props, stubs) {
     function RouterStub() { }
 
-    Object.assign(RouterStub, {
+    objectAssign(RouterStub, {
         makePath: function() {},
         makeHref: function() {},
         transitionTo: function() {},
@@ -17,7 +18,7 @@ var stubRouterContext = function(Component, props, stubs) {
         isActive: function() {},
         getRouteAtDepth: function() {},
         setRouteComponentAtDepth: function() {}
-    }, stubs)
+    }, stubs);
 
     return React.createClass({
         childContextTypes: {

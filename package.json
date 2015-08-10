@@ -1,6 +1,6 @@
 {
   "name": "react-test-utilities",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Testing Utilities for React",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,11 @@
     "jsx"
   ],
   "author": "Allan Hortle",
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "react": "0.13.x"
+  },
+  "dependencies": {
+      "object-assign": "^2.0.0"
+  }
 }
