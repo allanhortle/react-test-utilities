@@ -1,4 +1,4 @@
-module.exports = {
-    stubRouterContext: require('./src/stubRouterContext'),
-    renderAndFind: require('./src/renderAndFind')
-};
+'use strict';
+
+exports.stubRouterContext = require('./src/stubRouterContext');
+exports.renderAndFind = require('./src/renderAndFind.js');
