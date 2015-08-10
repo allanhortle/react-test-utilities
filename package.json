@@ -1,0 +1,17 @@
+{
+  "name": "react-test-utilities",
+  "version": "0.0.1",
+  "description": "Testing Utilities for React",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'no tests'"
+  },
+  "keywords": [
+    "react",
+    "test",
+    "testing",
+    "jsx"
+  ],
+  "author": "Allan Hortle",
+  "license": "ISC"
+}
