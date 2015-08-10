@@ -1,4 +1,9 @@
 # react-test-utilities
+
+```
+npm install --save-dev react-test-utilities
+```
+
 Testing utilities for react.
 
  * [renderAndFind()](#user-content-renderandfindcomponent)
