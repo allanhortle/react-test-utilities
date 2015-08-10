@@ -1,8 +1,8 @@
 # react-test-utilities
 Testing utilities for react.
 
- * [renderAndFind()](renderAndFind(Component))
- * [stubRouterContext()](stubRouterContext(Component, props, stubs))
+ * [renderAndFind()](#renderAndFind(Component))
+ * [stubRouterContext()](#stubRouterContext(Component, props, stubs))
 
 
 ### `renderAndFind(Component)`
