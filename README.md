@@ -1,6 +1,9 @@
 # react-test-utilities
 Testing utilities for react.
 
+ * [renderAndFind()](renderAndFind(Component))
+ * [stubRouterContext()](stubRouterContext(Component, props, stubs))
+
 
 ### `renderAndFind(Component)`
 Renders a component into dom and returns that node.
@@ -11,7 +14,7 @@ expect(dom.text).toBe('Hello World.');
 ```
 
 
-### `stubRouterContext(Component, props, stubs);`
+### `stubRouterContext(Component, props, stubs)`
 Stubs react-router's `this.router.context` so you can test components that rely on it.
 
 ```jsx
