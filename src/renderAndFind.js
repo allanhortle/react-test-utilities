@@ -1,8 +1,8 @@
-var React = require('react');
-var TestUtils = require('react/lib/ReactTestUtils');
+var ReactDOM = require('react-dom/server');
+var ReactTestUtils = require('react-addons-test-utils');
 
 var renderAndFind = function(Component) {
-    return React.findDOMNode(TestUtils.renderIntoDocument(Component));
+    return ReactDOM.findDOMNode(ReactTestUtils.renderIntoDocument(Component));
 };
 
 module.exports = renderAndFind;
